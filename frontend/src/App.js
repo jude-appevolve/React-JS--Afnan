@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       
-      { <button onClick={django}> Click me for backend connection</button> }
-      { {value && value} }
+      <button onClick={django}> Click me for backend connection</button> 
+      {value && value} 
     </div>
   );
 }
